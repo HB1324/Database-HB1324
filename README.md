@@ -6,7 +6,7 @@ Used to store web based coding programs
 .
 .
 
-Each CH# python has what you need (Located in "Main Code")
+Each CH# python has what you need (Located in "Code" under "main" branch)
 
 .
 .
