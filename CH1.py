@@ -35,7 +35,7 @@ print("2:00 - 6:00 a.m.")
 user_name = input()
 
 print("Hey", user_name)
-print("Welcome to zyBooks!")
+print("Welcome to Python!")
 
 #----------------------------------------
 
