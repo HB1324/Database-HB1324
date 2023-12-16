@@ -23,27 +23,24 @@ print("* Using this format -> (+ - * /) *\n")
 
 operator = input("Please select an operation: ")
 
-if operator == ("+", "-", "*", "/"):
-    user_num1st = int(input("Enter 1st Number: "))
-    user_num2nd = int(input("Enter 2nd Number: "))
+user_num1st = int(input("Enter 1st Number: "))
+user_num2nd = int(input("Enter 2nd Number: "))
 
-    if operator == "+":
-        output = calcadd(user_num1st, user_num2nd)
-        print("Answer: ", output)
+if operator == "+":
+    output = calcadd(user_num1st, user_num2nd)
+    print("Answer: ", output)
 
-    elif operator == "-":
-        output = calcsub(user_num1st, user_num2nd)
-        print("Answer: ", output)
+elif operator == "-":
+    output = calcsub(user_num1st, user_num2nd)
+    print("Answer: ", output)
 
-    elif operator == "*":
-        output = calcmult(user_num1st, user_num2nd)
-        print("Answer: ", output)
+elif operator == "*":
+    output = calcmult(user_num1st, user_num2nd)
+    print("Answer: ", output)
 
-    elif operator == "/":
-        output = calcdiv(user_num1st, user_num2nd)
-        print("Answer: ", output)
+elif operator == "/":
+    output = calcdiv(user_num1st, user_num2nd)
+    print("Answer: ", output)
 
-    else:
-        print("Invalid Keystroke Detected... Program Terminated")
 else:
     print("Invalid Keystroke Detected... Program Terminated")
