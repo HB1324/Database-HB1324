@@ -1,12 +1,12 @@
 # Database: HB1324
 
-Used to store web based coding programs
+Used to store coding programs
 
 .
 .
 .
 
-Each CH# python has what you need (Located in "Code" under "main" branch)
+Please go to branch "Fixed-Main" for contents. branch "Main" is only used for this announcement
 
 .
 .
