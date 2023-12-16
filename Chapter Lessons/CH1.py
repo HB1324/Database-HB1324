@@ -5,7 +5,7 @@
 #-------------------------------------
 
 # Multiplying User Input by Itself
-user_num = int(input())
+user_num = int(input("Enter User Num: "))
 user_num_squared = user_num * user_num
 
 print(user_num_squared)
@@ -13,8 +13,7 @@ print(user_num_squared)
 #----------------------------------------
 
 # Interleaved Input / Output
-print('Enter x: ')
-x = int(input())
+x = int(input('Enter X Value: '))
 
 print('x doubled is:', (2 * x))
 
@@ -26,8 +25,10 @@ print("Hello World!")
 #----------------------------------------
 
 # No Parking Sign
-print("  NO PARKING")
-print("2:00 - 6:00 a.m.")
+start_time = str(input("Enter a Start Time: "))
+end_time = str(input('Enter a Stop Time: '))
+
+print("No Parking From " + start_time + " to " + end_time)
 
 #----------------------------------------
 
