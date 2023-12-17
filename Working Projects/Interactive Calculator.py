@@ -21,10 +21,12 @@ def calcdiv(user_num1, user_num2):
 print("Welcome to HB's interactive calculator!")
 print("* Using this format -> (+ - * /) *\n")
 
+valid_operator = {"+", "-", "*", "/"}
 operator = input("Please select an operation: ")
 
 user_num1st = int(input("Enter 1st Number: "))
 user_num2nd = int(input("Enter 2nd Number: "))
+
 
 if operator == "+":
     output = calcadd(user_num1st, user_num2nd)
